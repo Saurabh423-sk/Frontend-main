@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+body{overflow-x: hidden;overflow-y: auto;}
+.authbg{
+  background-image:url("https://i.pinimg.com/1200x/30/1d/2c/301d2ce704e303a70f98ca713bb33b35.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.authbgsm{
+  background-image:url("https://i.pinimg.com/1200x/30/1d/2c/301d2ce704e303a70f98ca713bb33b35.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -50px -1px;
+}
+.herobg{
+  background-image:url("https://i.pinimg.com/1200x/9d/9a/22/9d9a22dd38c2d04025d5aa0d62b18abd.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+
+
+.adminbg{
+  background-image:url("https://i.pinimg.com/1200x/6b/78/23/6b78232ec0a071e2140dd69f481ff6d1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+
+.logo{
+  background-image:url("https://www.mgmpatna.com/header_banner/logo1_264.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+   background-position: -50px -1px;
+}
+
+
+@font-face {
+  font-family: 'Smile Delight';
+  src: url('./assets/font/smile.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.heading-smile {
+  font-family: 'Smile Delight', cursive;
+}
+
+
+/* //scroll */
+/* Apply this class to the scrolling container */
+.custom-scroll {
+  overflow-y: auto;
+  scrollbar-width: thin;                 /* Firefox */
+  scrollbar-color: #3b82f6 #e5e7eb;      /* thumb color | track color */
+}
+
+/* Chrome, Edge, Safari */
+/* Scroll container */
+.custom-scroll {
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #2563eb #e2e8f0;
+}
+
+/* Chrome, Edge, Safari */
+.custom-scroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.custom-scroll::-webkit-scrollbar-track {
+  background: #e2e8f0;
+  border-radius: 20px;
+  margin: 6px 0;
+}
+
+/* Thumb */
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #3b82f6, #1e40af);
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.4);
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #2563eb, #1e3a8a);
+  box-shadow: 0 6px 14px rgba(30, 58, 138, 0.6);
+}
