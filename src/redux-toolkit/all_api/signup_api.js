@@ -5,7 +5,7 @@ const signup_thunk = createAsyncThunk(
   "/auth/signup",
   async (data, thunkApi) => {
     try {
-      const res = await API.post("/auth/signup", data);
+      const res = await API.post(import.meta.env.VITE_SIGNUP, data);
       return res.data;
     } catch (err) {
       return thunkApi.rejectWithValue(
